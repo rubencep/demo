@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', event => {
 
   button.addEventListener('click', async() => {
     let device
-    const VENDOR_ID = 0x0801
+    const VENDOR_ID = 0x0321
 	const ProductID = 0x0011
     const config = new Uint8Array(10)
 
